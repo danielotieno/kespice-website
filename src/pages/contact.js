@@ -2,11 +2,14 @@ import React from "react";
 import Layout from "../components/Layout";
 import StyledHero from "../components/StyledHero";
 import { graphql } from "gatsby";
+import SEO from "../components/SEO"
+
 import Contact from "../components/Contact/Contact";
 
 const contact = ({ data: { contactBg } }) => {
   return (
     <Layout>
+    <SEO title="Contact"/>
       <StyledHero img={contactBg.childImageSharp.fluid} />
       <Contact />
     </Layout>

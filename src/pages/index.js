@@ -5,10 +5,12 @@ import Banner from "../components/Banner";
 import About from "../components/Home/About";
 import Services from "../components/Home/Services";
 import StyledHero from "../components/StyledHero";
+import SEO from "../components/SEO"
 import { graphql } from "gatsby";
 
 export default ({ data: { homeBg } }) => (
   <Layout>
+  <SEO title="Home"/>
     <StyledHero home='true' img={homeBg.childImageSharp.fluid}>
       <Banner
         title='KeSpice App'
