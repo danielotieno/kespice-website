@@ -5,20 +5,14 @@ import { MdRestaurant } from "react-icons/md";
 export default [
   {
     icon: <MdRestaurant />,
-    title: "Order like a Boss",
-    text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit Repudiandae iusto"
+    title: "Order like a Boss"
   },
   {
     icon: <FaMoneyCheckAlt />,
-    title: "Pay like a Boss",
-    text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit Repudiandae iusto"
+    title: "Pay like a Boss"
   },
   {
     icon: <FaThumbsUp />,
-    title: "Get served like a Boss",
-    text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit Repudiandae iusto"
+    title: "Get served like a Boss"
   }
 ];

@@ -8,7 +8,7 @@ const error = () => {
   return (
     <Layout>
       <header className={styles.error}>
-        <Banner title='oops!! it is a dead end'>
+        <Banner title='404'>
           <AniLink fade to='/' className='btn-white'>
             Back to Home Page
           </AniLink>
